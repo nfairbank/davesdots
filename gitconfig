@@ -1,3 +1,9 @@
+[user]
+	name = jtfairbank
+	email = jtfairbank@gmail.com
+[credential]
+	helper = osxkeychain
+
 [alias]
 	ci = commit
 	co = checkout
