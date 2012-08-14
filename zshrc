@@ -1,6 +1,7 @@
 # .zshrc
-# Current author: David Majnemer
-# Original author: Saleem Abdulrasool <compnerd@compnerd.org>
+#  Current author: Taylor Fairbank (jtfairbank)
+# Original author: David Majnemer
+#                  Saleem Abdulrasool <compnerd@compnerd.org>
 # vim:set nowrap:
 
 case `uname -s` in
@@ -56,3 +57,7 @@ if [ -d "${HOME}/.zsh" ] ; then
 		. "${HOME}/.zsh/${file}"
 	done
 fi
+
+# locale for Python-Djagno Superuser Creation
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
