@@ -1,7 +1,7 @@
 " vimrc
-" Current author: David Majnemer
-" Original author: Saleem Abdulrasool <compnerd@compnerd.org>
-" vim: set ts=3 sw=3 et nowrap:
+"   Current author: Taylor Fairbank (jtfairbank)
+" Previous authors: David Majnemer
+"                   Saleem Abdulrasool <compnerd@compnerd.org>
 
 if has('multi_byte')      " Make sure we have unicode support
    scriptencoding utf-8    " This file is in UTF-8
@@ -20,7 +20,7 @@ set nocompatible           " Don't emulate vi's limitations
 set tabstop=4              " 4 spaces for tabs
 set shiftwidth=4           " 4 spaces for indents
 set smarttab               " Tab next line based on current line
-"set expandtab             " Spaces for indentation
+set expandtab              " Spaces for indentation
 set autoindent             " Automatically indent next line
 if has('smartindent')
    set smartindent            " Indent next line based on current line
@@ -46,6 +46,7 @@ set noerrorbells           " Disable error bells
 set visualbell             " Turn visual bell on
 set t_vb=                  " Make the visual bell emit nothing
 set showcmd                " Show the current command
+set number                 " show line numbers
 
 set diffopt+=iwhite
 
