@@ -166,6 +166,7 @@ else
       set list listchars=tab:>-,trail:.,extends:>
    endif
 endif
+set nolist
 
 if has('mouse')
    " Dont copy the listchars when copying
