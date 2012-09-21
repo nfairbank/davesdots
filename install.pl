@@ -38,7 +38,7 @@ unless(eval {symlink('', ''); 1;}) {
 
 my %links = (
 	screenrc   => '.screenrc',
-	ackrc      => '.ackrc',
+#	ackrc      => '.ackrc',
 	toprc      => '.toprc',
 	dir_colors => '.dir_colors',
 	lessfilter => '.lessfilter',
@@ -50,29 +50,29 @@ my %links = (
 
 	commonsh => '.commonsh',
 
-	inputrc  => '.inputrc',
+#	inputrc  => '.inputrc',
 
-	bash          => '.bash',
-	bashrc        => '.bashrc',
-	bash_profile  => '.bash_profile',
+#	bash          => '.bash',
+#	bashrc        => '.bashrc',
+#	bash_profile  => '.bash_profile',
 
 	zsh      => '.zsh',
 	zshrc    => '.zshrc',
 
-	ksh      => '.ksh',
-	kshrc    => '.kshrc',
-	mkshrc   => '.mkshrc',
+#	ksh      => '.ksh',
+#	kshrc    => '.kshrc',
+#	mkshrc   => '.mkshrc',
 
 	shinit  => '.shinit',
 
-	Xdefaults  => '.Xdefaults',
-	Xresources => '.Xresources',
+#	Xdefaults  => '.Xdefaults',
+#	Xresources => '.Xresources',
 
 	'uncrustify.cfg' => '.uncrustify.cfg',
 	'indent.pro'     => '.indent.pro',
 
-	xmobarrc    => '.xmobarrc',
-	'xmonad.hs' => '.xmonad/xmonad.hs',
+#	xmobarrc    => '.xmobarrc',
+#	'xmonad.hs' => '.xmonad/xmonad.hs',
 
 	'Wombat.xccolortheme'  => 'Library/Application Support/Xcode/Color Themes/Wombat.xccolortheme',
 #	'Wombat.dvtcolortheme' => 'Library/Developer/Xcode/UserData/FontAndColorThemes/Wombat.dvtcolortheme',
@@ -82,8 +82,8 @@ my %links = (
 
 	tigrc     => '.tigrc',
 
-	caffeinate => 'bin/caffeinate',
-	lock       => 'bin/lock',
+#	caffeinate => 'bin/caffeinate',
+#	lock       => 'bin/lock',
 
 	'git-info'            => 'bin/git-info',
 	'git-untrack-ignored' => 'bin/git-untracked-ignored',
