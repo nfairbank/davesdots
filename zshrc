@@ -61,3 +61,6 @@ fi
 # locale for Python-Djagno Superuser Creation
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+# for Aircrack install via homebrew
+export PATH=$PATH:/usr/local/sbin
