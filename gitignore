@@ -6,6 +6,7 @@ ctags
 tags
 .*.swo
 .*.swp
+.swp
 ._*
 .nfs.*
 .__afs*
