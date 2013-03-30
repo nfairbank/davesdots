@@ -391,3 +391,6 @@ if v:version >= 700
 endif
 
 set t_RV=
+
+" Syntax Modes
+au BufRead,BufNewFile *.twig set filetype=htmljinja
