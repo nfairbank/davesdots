@@ -64,3 +64,21 @@ export LANG=en_US.UTF-8
 
 # for Aircrack install via homebrew
 export PATH=$PATH:/usr/local/sbin
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# for homebrew
+export PATH="/usr/local/bin:$PATH"
+
+# dart sdk location
+export DART_SDK="/Applications/dart/dart-sdk"
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# path to z
+. ~/Programming/z/z.sh
+
+# path to android sdk
+export ANDROID_HOME=~/Programming/android-sdk-macosx
+export PATH=~/Programming/android-sdk-macosx/platform-tools:~/Programming/android-sdk-macosx/tools:$PATH
