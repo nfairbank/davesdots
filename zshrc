@@ -44,6 +44,8 @@ if [ -d "${HOME}/work" ] ; then
 	done
 fi
 
+echo "sleep .2" >> .zshrc
+
 # common shell utils
 if [ -d "${HOME}/.commonsh" ] ; then
 	for file in "${HOME}"/.commonsh/*(N.x:t) ; do
