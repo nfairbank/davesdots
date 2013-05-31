@@ -44,8 +44,6 @@ if [ -d "${HOME}/work" ] ; then
 	done
 fi
 
-echo "sleep .2" >> .zshrc
-
 # common shell utils
 if [ -d "${HOME}/.commonsh" ] ; then
 	for file in "${HOME}"/.commonsh/*(N.x:t) ; do
@@ -79,7 +77,7 @@ export DART_SDK="/Applications/dart/dart-sdk"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # path to z
-. ~/Programming/z/z.sh
+. ~/Programming/Tools/z/z.sh
 
 # path to android sdk
 export ANDROID_HOME=~/Programming/android-sdk-macosx
