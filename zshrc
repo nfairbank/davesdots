@@ -91,6 +91,13 @@ export PATH="/usr/local/heroku/bin:$PATH"
 #  - OSX package manager
 #  - http://mxcl.github.io/homebrew/
 export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+
+# Node
+#  - javascript based server
+#  - http://http://nodejs.org/
+export NODE_PATH="/usr/local/lib/node"
+export PATH="/usr/local/share/npm/bin:$PATH"
 
 # Python-Djagno Superuser Creation's locale
 #  - A work-around for Django not finding the user's locale.  According tot the
