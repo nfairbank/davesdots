@@ -47,4 +47,4 @@
 	excludesfile = ~/.gitignore
 	safecrlf = true
 [push]
-	default = matching
+	default = simple
