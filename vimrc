@@ -17,8 +17,8 @@ endif
 
 " ---- General Setup ----
 set nocompatible           " Don't emulate vi's limitations
-set tabstop=4              " 4 spaces for tabs
-set shiftwidth=4           " 4 spaces for indents
+set tabstop=2              " 2 spaces for tabs
+set shiftwidth=2           " 2 spaces for indents
 set smarttab               " Tab next line based on current line
 set expandtab              " Spaces for indentation
 set autoindent             " Automatically indent next line
@@ -50,6 +50,8 @@ set number                 " show line numbers
 
 set diffopt+=iwhite
 
+set nofoldenable           " disable folding
+
 " ---- Filetypes ----
 if has('syntax')
    syntax on
@@ -72,7 +74,7 @@ if has('eval')
    endfun
 
    let g:detectindent_preferred_expandtab = 0
-   let g:detectindent_preferred_indent = 4
+   let g:detectindent_preferred_indent = 2
 
    fun! <SID>DetectDetectIndent()
       try
