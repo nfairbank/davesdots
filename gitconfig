@@ -35,7 +35,8 @@
 	amend = commit --amend -C HEAD
 	tree = log --graph --pretty=oneline
 	hist = log --graph --pretty=format:'%C(cyan)%h%Creset -%C(yellow)%d%Creset %s %C(magenta)[%an]%Creset %Cgreen(%ad)%Creset' --date=relative
-	latest = log --reverse --pretty=format:'%C(cyan)%h%Creset -%C(yellow)%d%Creset %s %C(magenta)[%an]%Creset %Cgreen(%ad)%Creset' --date=relative
+	latest = log -n 5 --pretty=format:'%C(cyan)%h%Creset -%C(yellow)%d%Creset %s %C(magenta)[%an]%Creset %Cgreen(%ad)%Creset' --date=relative
+	rm-deleted = !git rm $(git ls-files --deleted)
 
 	vimdiff = difftool -y -t vimdiff
 [color]
