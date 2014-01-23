@@ -48,4 +48,4 @@
 	excludesfile = ~/.gitignore
 	safecrlf = true
 [push]
-	default = simple
+	default = tracking
