@@ -37,6 +37,12 @@
 	hist = log --graph --pretty=format:'%C(cyan)%h%Creset -%C(yellow)%d%Creset %s %C(magenta)[%an]%Creset %Cgreen(%ad)%Creset' --date=relative
 	latest = log -n 5 --pretty=format:'%C(cyan)%h%Creset -%C(yellow)%d%Creset %s %C(magenta)[%an]%Creset %Cgreen(%ad)%Creset' --date=relative
 	rm-deleted = !git rm $(git ls-files --deleted)
+	  # TODO: doesn't work for paths with a space :(
+	
+	# REMINDERS
+	# --------------------------------------------------
+	# `git remote prune origin` - remove remote branches deleted through github
+	# `git push origin :<branch>` - delete a remote branch
 
 	vimdiff = difftool -y -t vimdiff
 [color]
