@@ -121,10 +121,6 @@ export PATH="/usr/local/sbin:$PATH"
 export NODE_PATH="/usr/local/lib/node"
 export PATH="/usr/local/share/npm/bin:$PATH"
 
-# PHP
-#  - Version 5.4 from Brew
-export PATH="$(brew --prefix josegonzalez/php/php54)/bin:$PATH"
-
 # Python-Djagno Superuser Creation's locale
 #  - A work-around for Django not finding the user's locale.  According tot the
 #    bug report, this issue was fixed in Django 1.5.
